@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.login-container {
+  width: 420px;
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4HzWHLaXdtirKkRx7boz9p5ORUABInQIfw&s); */
+  background: linear-gradient(to bottom, #a9d7fb, #cae4f6);
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  /* text-align: center; */
+}
+.wrapper {
+  width: 420px;
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4HzWHLaXdtirKkRx7boz9p5ORUABInQIfw&s); */
+  background: linear-gradient(to bottom, #a9d7fb, #cfe5f4);
+
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 0 30px rgba(23, 23, 23, 0.15);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+button,
+input[type="submit"] {
+  padding: 10px;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  /* display: flex; */
+}
+
+button:hover {
+  color: red;
+}
+
+.or {
+  text-align: center;
+  margin: 15px 0;
+}
+
+a.social-facebook {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  background: white;
+}
+
+a.social-google {
+  display: inline-block;
+  width: 120px;
+  gap: 10px;
+  text-align: center;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  background: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.social-facebook i {
+  color: #1877f2;
+}
+
+.social-google i {
+  color: #db4437;
+}
+
+.social-google img {
+  width: 18px;
+  height: 18px;
+}
+
+.terms {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+}
+
+.social-ground {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.ngang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.login {
+  text-align: center;
+  margin: 15px 0;
+}
+.name {
+  position: relative;
+  width: 100%;
+}
+
+.name input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* chừa chỗ bên trái cho icon */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.name i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 14px;
+}
+
+.mail {
+  position: relative;
+  width: 100%;
+}
+
+.mail input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* chừa chỗ bên trái cho icon */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.mail i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 14px;
+}
+
+.dt {
+  position: relative;
+  width: 100%;
+}
+
+.dt input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* chừa chỗ bên trái cho icon */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.dt i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 14px;
+}
+
+.key {
+  position: relative;
+  width: 100%;
+}
+
+.key input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* chừa chỗ bên trái cho icon */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.key i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 14px;
+}
